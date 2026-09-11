@@ -1,0 +1,6 @@
+interface:
+  display_name: "License compliance triage"
+  short_description: "依赖许可证分诊、证据核验与误报压降"
+  default_prompt: "Use $license-compliance-triage to review this dependency-license report and separate false positives from evidence-backed compliance risks."
+policy:
+  allow_implicit_invocation: true
