@@ -1,5 +1,6 @@
 ---
 name: unirest-java-3
+license: Apache-2.0
 description: >
   Unirest-Java 3.x HTTP client library for Java 8+. Use when making HTTP requests (GET/POST/PUT/DELETE),
   building REST API clients, handling JSON responses, file uploads/downloads, async requests,

@@ -8,7 +8,7 @@ description: |
   Service, ServiceImpl, Mapper, Model, Entity, BO (Business Object), DTO, VO, and other common Java 
   component types. The skill follows a systematic workflow: scan codebase, identify components, create 
   todo list, and add comments in order (class comments → method comments → field comments).
-license: Complete terms in LICENSE.txt
+license: Apache-2.0
 ---
 
 ## When to use this skill

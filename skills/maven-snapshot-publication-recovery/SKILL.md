@@ -1,5 +1,6 @@
 ---
 name: maven-snapshot-publication-recovery
+license: Apache-2.0
 description: Use when a Maven SNAPSHOT appears published but fresh consumers fail on missing parents, BOMs, aggregate POMs, transitive modules, metadata/authentication incompatibilities, or partial reactor uploads.
 ---
 

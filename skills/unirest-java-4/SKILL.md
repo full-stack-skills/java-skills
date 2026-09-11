@@ -1,5 +1,6 @@
 ---
 name: unirest-java-4
+license: Apache-2.0
 description: >
   Unirest-Java 4.x HTTP client library for Java 11+. Use when making HTTP requests (GET/POST/PUT/DELETE),
   building REST API clients, handling JSON responses, file uploads/downloads, async requests,

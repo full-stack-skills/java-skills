@@ -1,7 +1,7 @@
 ---
 name: maven-search
 description: Provides comprehensive guidance for searching and retrieving Maven components from Maven Central Repository (https://repo1.maven.org/maven2/). This skill enables searching by groupId, artifactId, version, and other coordinates, retrieving component metadata (POM files, JARs, sources, Javadoc), querying version history, and analyzing dependencies. Use when the user needs to find, verify, or retrieve Maven dependencies, check component versions, analyze dependency trees, or work with Maven coordinates.
-license: Complete terms in LICENSE.txt
+license: Apache-2.0
 ---
 
 ## When to use this skill

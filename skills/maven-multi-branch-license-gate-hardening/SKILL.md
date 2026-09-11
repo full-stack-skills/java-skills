@@ -1,5 +1,6 @@
 ---
 name: maven-multi-branch-license-gate-hardening
+license: Apache-2.0
 description: Use when hardening or auditing license evidence, SBOM generation, full Maven Reactor verification, commit and push proof, or CI completion across multiple maintenance branches.
 ---
 

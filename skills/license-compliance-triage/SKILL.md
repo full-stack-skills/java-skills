@@ -1,5 +1,6 @@
 ---
 name: license-compliance-triage
+license: Apache-2.0
 description: Review dependency-license reports, reduce false positives, and produce evidence-backed compliance triage when commercial use, source-disclosure obligations, multi-license expressions, or exact-coordinate exceptions must be assessed. Use for engineering compliance review; do not present the result as legal advice.
 ---
 

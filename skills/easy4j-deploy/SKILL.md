@@ -1,5 +1,6 @@
 ---
 name: easy4j-deploy
+license: Apache-2.0
 description: easy4j 组织标准发布流程与多分支 Maven 发布规范。适用于 io.github.easy4j 仓库（如 openclaw-java-sdk、okhttp3-extension 及其他 easy-4-java 组织组件）的以下场景：(1) SDK 三分支正式版发布（标准流程：创建 tag → 发布 Maven Central → bump SNAPSHOT，支持子智能体并行编排），(1b) xxx-spring-boot-starter 十分支发布（依赖 SDK 先转正式版 + tag + Central + bump），(2) 发布阿里云私有库 SNAPSHOT，(3) 三分支（feature/1.0.x JDK 8、feature/2.0.x JDK 17、feature/3.0.x JDK 21）源码同步，(4) 发布前 CVE 扫描与依赖升级（Jackson BOM 版本控制规则、JDK 依赖天花板），(5) 发布故障排查（409 冲突、Central 拒绝 SNAPSHOT 依赖、argLine 问题）。触发词：发布、上线、deploy、release、发版、发布正式版、同步分支、版本号升级。
 ---
 

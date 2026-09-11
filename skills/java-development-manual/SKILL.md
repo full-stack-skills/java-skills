@@ -1,5 +1,6 @@
 ---
 name: java-development-manual
+license: Apache-2.0
 description: |
   Java开发手册规约集合，基于阿里巴巴Java开发手册（嵩山版）。
   涵盖7大维度：编程规约、异常日志、单元测试、安全规约、MySQL数据库、工程结构、设计规约。

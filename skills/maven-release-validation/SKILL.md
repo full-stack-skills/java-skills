@@ -1,5 +1,6 @@
 ---
 name: maven-release-validation
+license: Apache-2.0
 description: Validate multi-branch Maven releases end to end, including branch-specific JDK/Maven contracts, source tests, Git remote synchronization, sequential repository publication, and isolated clean-cache downstream consumption. Use for Maven release readiness, private-repository publication, or release evidence audits; do not use for ordinary local builds.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: java-conventions
+license: Apache-2.0
 description: 统一 Java 项目编码规范与注释规范（SLF4J+Lombok 日志、Bean Lombok 注解选择、判空 Objects/Optional、工具类优先级 Spring→Apache Commons→Hutool→Guava、复杂逻辑用设计模式/简单逻辑不拆分、Controller/Service/ServiceImpl/Mapper 注释一致性）。当需要“按 Java 规范重构/Review/补全注释/统一日志/统一工具类使用/补全 JavaDoc”时使用。
 ---
 

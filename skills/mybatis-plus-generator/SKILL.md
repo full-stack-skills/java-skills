@@ -7,7 +7,7 @@ description: |
   This skill automatically generates standard CRUD methods and custom methods based on user requirements for 
   MyBatis-Plus projects. Supports MVC and DDD architectures, Java and Kotlin languages. Do NOT trigger for 
   generic code generation, JPA/Hibernate, or other ORM frameworks.
-license: Complete terms in LICENSE.txt
+license: Apache-2.0
 ---
 
 ## When to use this skill
