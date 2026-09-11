@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-branch license gate hardening"
+  short_description: "跨维护分支闭合许可证、SBOM、Reactor 与 CI 证据链"
+  default_prompt: "请使用 $multi-branch-license-gate-hardening 审计并闭合这些维护分支的许可证发布门禁。"
