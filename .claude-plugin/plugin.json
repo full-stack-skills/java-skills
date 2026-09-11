@@ -40,6 +40,8 @@
     "./skills/xxl-job-patterns",
     "./skills/seata-patterns",
     "./skills/caffeine-patterns",
-    "./skills/commons-patterns"
+    "./skills/commons-patterns",
+    "./skills/maven-release-validation",
+    "./skills/multi-branch-license-gate-hardening"
   ]
 }

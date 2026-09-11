@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maven Release Validation"
+  short_description: "验证多分支 Maven 发布、双远端同步与干净缓存消费"
+  default_prompt: "Use $maven-release-validation to validate this multi-branch Maven release from source through clean-cache downstream consumption."

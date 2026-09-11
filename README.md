@@ -24,7 +24,7 @@ English | [简体中文](./README.zh-CN.md)
 
 **Java Skills** is a curated collection of Agent Skills for AI coding agents, part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai).
 
-This package includes **31 skills**. Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
+This package includes **33 registered skills**. Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
 
 ## 📦 Install
 
@@ -38,13 +38,15 @@ Or install specific skills:
 npx skills add full-stack-skills/java-skills --skill <skill-name>
 ```
 
-## 🎯 Skills (31)
+## 🎯 Skills (33)
 
 | Skill | Description |
 |-------|-------------|
 | `java-code-comments` | Java code commenting conventions and best practices |
 | `java-conventions` | 统一 Java 项目编码规范与注释规范（SLF4J+Lombok 日志、Bean Lombok 注解选择、判空 Objects/Optional、工具类优先级 Spring→Apache Commons→Hutool→Guava、复杂... |
 | `java-development-manual` | Java development manual and guidelines |
+| `maven-release-validation` | End-to-end multi-branch Maven release validation covering branch-specific JDK/Maven contracts, Git remote synchronization, sequential private-repository publishing, and isolated clean-cache downstream consumption |
+| `multi-branch-license-gate-hardening` | Multi-branch license-gate hardening and audit workflow for version-bound evidence, SBOM regeneration, full Maven Reactor verification, Git SHA reconciliation, and final CI completion |
 | `unirest-java-3` | Unirest 3.x HTTP client for Java 8+ with Apache HttpClient, built-in GSON, per-request proxy, mocking, caching, and connection pool tuning |
 | `unirest-java-4` | Unirest 4.x HTTP client for Java 11+ with java.net.http, SSE, WebSocket, HTTP/2, ProxySelector, mocking, caching, and modular JSON support |
 | `okhttp3-5.x` | OkHttp 5.x HTTP client for Java/JVM 8+ and Android 5+ with HTTP/2, transparent GZIP, Fast Fallback, MockWebServer, and GraalVM Native Image support |
