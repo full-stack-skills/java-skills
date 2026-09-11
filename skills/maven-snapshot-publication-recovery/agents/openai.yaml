@@ -1,0 +1,6 @@
+interface:
+  display_name: "Maven Snapshot Publication Recovery"
+  short_description: "Recover incomplete SNAPSHOT graphs with fresh-cache proof"
+  default_prompt: "Use $maven-snapshot-publication-recovery to diagnose this incomplete Maven SNAPSHOT publication and propose the smallest evidence-backed recovery."
+policy:
+  allow_implicit_invocation: true

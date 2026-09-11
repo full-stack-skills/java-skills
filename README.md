@@ -24,7 +24,7 @@ English | [简体中文](./README.zh-CN.md)
 
 **Java Skills** is a curated collection of Agent Skills for AI coding agents, part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai).
 
-This package includes **34 registered skills**. Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
+This package includes **35 registered skills**. Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
 
 ## 📦 Install
 
@@ -38,7 +38,7 @@ Or install specific skills:
 npx skills add full-stack-skills/java-skills --skill <skill-name>
 ```
 
-## 🎯 Skills (34)
+## 🎯 Skills (35)
 
 | Skill | Description |
 |-------|-------------|
@@ -46,6 +46,7 @@ npx skills add full-stack-skills/java-skills --skill <skill-name>
 | `java-conventions` | 统一 Java 项目编码规范与注释规范（SLF4J+Lombok 日志、Bean Lombok 注解选择、判空 Objects/Optional、工具类优先级 Spring→Apache Commons→Hutool→Guava、复杂... |
 | `java-development-manual` | Java development manual and guidelines |
 | `maven-release-validation` | End-to-end multi-branch Maven release validation covering branch-specific JDK/Maven contracts, Git remote synchronization, sequential private-repository publishing, and isolated clean-cache downstream consumption |
+| `maven-snapshot-publication-recovery` | Evidence-driven recovery for incomplete Maven SNAPSHOT publication graphs, including isolated fresh-cache diagnosis, minimal missing-artifact backfill, staged Maven 3 fallback, and remote consumer closure |
 | `maven-multi-branch-license-gate-hardening` | Multi-branch Maven license-gate hardening and audit workflow for version-bound evidence, SBOM regeneration, full Reactor verification, Git SHA reconciliation, and final CI completion |
 | `license-compliance-triage` | Evidence-backed dependency-license review that reduces scanner false positives, resolves multi-license expressions, binds decisions to exact versions, and separates conditional obligations from real blockers |
 | `unirest-java-3` | Unirest 3.x HTTP client for Java 8+ with Apache HttpClient, built-in GSON, per-request proxy, mocking, caching, and connection pool tuning |

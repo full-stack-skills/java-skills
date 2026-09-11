@@ -24,7 +24,7 @@
 
 **Java 技能** 是一组 AI 编码智能体技能，属于 [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) 生态，由 [PartMe.AI](https://github.com/partme-ai) 维护。
 
-本包包含 **34 个已登记技能**。每个技能是一个独立的 `SKILL.md` 文件，AI 智能体按需加载。
+本包包含 **35 个已登记技能**。每个技能是一个独立的 `SKILL.md` 文件，AI 智能体按需加载。
 
 ## 📦 安装
 
@@ -38,7 +38,7 @@ npx skills add full-stack-skills/java-skills
 npx skills add full-stack-skills/java-skills --skill <skill-name>
 ```
 
-## 🎯 技能列表 (34)
+## 🎯 技能列表 (35)
 
 | 技能 | 描述 |
 |------|------|
@@ -46,6 +46,7 @@ npx skills add full-stack-skills/java-skills --skill <skill-name>
 | `java-conventions` | 统一 Java 项目编码规范与注释规范（SLF4J+Lombok 日志、Bean Lombok 注解选择、判空 Objects/Optional、工具类优先级 Spring→Apache Commons→Hutool→Guava、复杂... |
 | `java-development-manual` | Java 开发手册与指南 |
 | `maven-release-validation` | 多分支 Maven 发布全链路验证，覆盖分支级 JDK/Maven 契约、Git 多远端同步、私有仓库串行发布和隔离空缓存下游消费验证 |
+| `maven-snapshot-publication-recovery` | Maven SNAPSHOT 发布图不完整时的证据驱动恢复，覆盖隔离空缓存诊断、最小缺失制品回填、Maven 3 分阶段兜底上传与远端消费闭合 |
 | `maven-multi-branch-license-gate-hardening` | Maven 多分支许可证门禁加固与审计，覆盖精确版本证据、SBOM 重新生成、完整 Reactor 验证、Git SHA 对账与 CI 最终闭合 |
 | `license-compliance-triage` | 基于证据的依赖许可证分诊，压降扫描误报、解析多许可证表达式、将结论绑定精确版本，并区分附带义务与真实阻断 |
 | `unirest-java-3` | Unirest 3.x HTTP 客户端，基于 Apache HttpClient，支持 Java 8+，内置 GSON，支持每请求代理、Mock 测试、缓存和连接池调优 |
