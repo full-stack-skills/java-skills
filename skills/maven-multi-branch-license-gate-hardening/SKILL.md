@@ -1,5 +1,5 @@
 ---
-name: multi-branch-license-gate-hardening
+name: maven-multi-branch-license-gate-hardening
 description: Use when hardening or auditing license evidence, SBOM generation, full Maven Reactor verification, commit and push proof, or CI completion across multiple maintenance branches.
 ---
 

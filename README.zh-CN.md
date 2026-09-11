@@ -46,7 +46,7 @@ npx skills add full-stack-skills/java-skills --skill <skill-name>
 | `java-conventions` | 统一 Java 项目编码规范与注释规范（SLF4J+Lombok 日志、Bean Lombok 注解选择、判空 Objects/Optional、工具类优先级 Spring→Apache Commons→Hutool→Guava、复杂... |
 | `java-development-manual` | Java 开发手册与指南 |
 | `maven-release-validation` | 多分支 Maven 发布全链路验证，覆盖分支级 JDK/Maven 契约、Git 多远端同步、私有仓库串行发布和隔离空缓存下游消费验证 |
-| `multi-branch-license-gate-hardening` | 多分支许可证门禁加固与审计，覆盖精确版本证据、SBOM 重新生成、完整 Maven Reactor 验证、Git SHA 对账与 CI 最终闭合 |
+| `maven-multi-branch-license-gate-hardening` | Maven 多分支许可证门禁加固与审计，覆盖精确版本证据、SBOM 重新生成、完整 Reactor 验证、Git SHA 对账与 CI 最终闭合 |
 | `unirest-java-3` | Unirest 3.x HTTP 客户端，基于 Apache HttpClient，支持 Java 8+，内置 GSON，支持每请求代理、Mock 测试、缓存和连接池调优 |
 | `unirest-java-4` | Unirest 4.x HTTP 客户端，基于 java.net.http，支持 Java 11+，SSE、WebSocket、HTTP/2、ProxySelector、Mock 测试、缓存和模块化 JSON 支持 |
 | `okhttp3-5.x` | OkHttp 5.x HTTP 客户端，支持 Java/JVM 8+ 和 Android 5+，HTTP/2、透明 GZIP、Fast Fallback、MockWebServer、GraalVM Native Image 支持 |
