@@ -1,8 +1,6 @@
 ---
 name: commons-patterns
-description: |
-  Apache Commons 最佳实践模式。从官方文档提炼，覆盖 Commons Lang3(StringUtils千面判空/isEmpty vs isBlank/Validate抛NullPointerException迁移)、Commons IO(IOUtils.toString大文件陷阱/FileUtils.lineIterator逐行读模式/FilenameUtils.normalize路径规范化)、Commons Collections4(CollectionUtils.union/intersection/subtract集合运算)。
-  纠正 LLM 误用：混淆 StringUtils.isBlank vs isEmpty、IOUtils.toString 读大文件OOM、不知道 LineIterator 逐行读模式、用 lang 而非 lang3 包名。
+description: Apache Commons 最佳实践模式。从官方文档提炼，覆盖 Commons Lang3(StringUtils千面判空/isEmpty vs isBlank/Validate抛NullPointerException迁移)、Commons IO(IOUtils.toString大文件陷阱/FileUtils.lineIterator逐行读模式/FilenameUtils.normalize路径规范化)、Commons Collections4(CollectionUtils.union/intersection/subtract集合运算)。 纠正 LLM 误用：混淆 StringUtils.isBlank vs isEmpty、IOUtils.toString 读大文件OOM、不知道 LineIterator 逐行读模式、用 lang 而非 lang3 包名。
 license: Apache-2.0
 ---
 

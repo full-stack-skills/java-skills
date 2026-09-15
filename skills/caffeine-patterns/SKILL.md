@@ -1,8 +1,6 @@
 ---
 name: caffeine-patterns
-description: |
-  Caffeine JVM 本地缓存技能。覆盖本地缓存 vs 远程缓存(Redis)选择决策树、expireAfterWrite vs expireAfterAccess vs refreshAfterWrite 三种过期策略对比与组合规则(refresh < expire)、CacheLoader加载与reload异步刷新模式、Spring Cache @Cacheable集成、maximumSize驱逐策略、recordStats缓存统计。
-  纠正 LLM：用 ConcurrentHashMap+手动过期、所有缓存走Redis、refreshAfterWrite > expireAfterWrite导致永远不刷新、CacheLoader返回null导致缓存穿透。
+description: Caffeine JVM 本地缓存技能。覆盖本地缓存 vs 远程缓存(Redis)选择决策树、expireAfterWrite vs expireAfterAccess vs refreshAfterWrite 三种过期策略对比与组合规则(refresh < expire)、CacheLoader加载与reload异步刷新模式、Spring Cache @Cacheable集成、maximumSize驱逐策略、recordStats缓存统计。 纠正 LLM：用 ConcurrentHashMap+手动过期、所有缓存走Redis、refreshAfterWrite > expireAfterWrite导致永远不刷新、CacheLoader返回null导致缓存穿透。
 license: Apache-2.0
 ---
 

@@ -1,8 +1,6 @@
 ---
 name: xxl-job-patterns
-description: |
-  XXL-JOB 最佳实践模式。基于 hiwepy/xxljob-spring-boot-starter 定制封装，覆盖 @XxlJobCron 注解替代原生 @XxlJob(代码即配置/cron写在代码里/启动时自动注册到admin)、XxlJobTemplate 编程式任务管理(CRUD/启停/触发/session自动续期)、执行器自动配置(Unirest SSL/端口兜底/Nacos适配)、Micrometer指标集成、v2/v3双版本兼容。
-  纠正 LLM 误用：用 @Scheduled 替代分布式调度、不知道 XxlJobTemplate 的编程式管理、不知道 @XxlJobCron 的 selfStarting 自动注册模式。
+description: XXL-JOB 最佳实践模式。基于 hiwepy/xxljob-spring-boot-starter 定制封装，覆盖 @XxlJobCron 注解替代原生 @XxlJob(代码即配置/cron写在代码里/启动时自动注册到admin)、XxlJobTemplate 编程式任务管理(CRUD/启停/触发/session自动续期)、执行器自动配置(Unirest SSL/端口兜底/Nacos适配)、Micrometer指标集成、v2/v3双版本兼容。 纠正 LLM 误用：用 @Scheduled 替代分布式调度、不知道 XxlJobTemplate 的编程式管理、不知道 @XxlJobCron 的 selfStarting 自动注册模式。
 license: Apache-2.0
 ---
 

@@ -1,9 +1,6 @@
 ---
 name: mybatis-plus-patterns
-description: |
-  MyBatis-Plus 增强 ORM 技能。覆盖 LambdaQueryWrapper vs QueryWrapper选择(始终Lambda)、分页插件(PaginationInnerInterceptor)配置、乐观锁(@Version + OptimisticLockerInnerInterceptor)、逻辑删除(@TableLogic 全局/局部配置)、自动填充(@TableField fill + MetaObjectHandler)、ActiveRecord vs Mapper模式选择、防全表更新(BlockAttackInnerInterceptor)、通用PageQuery抽取。
-  当用户使用 MyBatis-Plus 进行数据库操作、配置分页乐观锁、选择查询方式时使用。
-  与 mybatis 技能互补：mybatis 侧重XML/ResultMap/SQL写法，mybatis-plus 侧重增强功能。
+description: MyBatis-Plus 增强 ORM 技能。覆盖 LambdaQueryWrapper vs QueryWrapper选择(始终Lambda)、分页插件(PaginationInnerInterceptor)配置、乐观锁(@Version + OptimisticLockerInnerInterceptor)、逻辑删除(@TableLogic 全局/局部配置)、自动填充(@TableField fill + MetaObjectHandler)、ActiveRecord vs Mapper模式选择、防全表更新(BlockAttackInnerInterceptor)、通用PageQuery抽取。 当用户使用 MyBatis-Plus 进行数据库操作、配置分页乐观锁、选择查询方式时使用。 与 mybatis 技能互补：mybatis 侧重XML/ResultMap/SQL写法，mybatis-plus 侧重增强功能。
 license: Apache-2.0
 ---
 

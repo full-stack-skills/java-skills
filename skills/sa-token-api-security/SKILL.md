@@ -1,9 +1,6 @@
 ---
 name: sa-token-api-security
-description: |
-  Sa-Token API 安全防御技能。覆盖 API 参数签名(sa-token-sign)防篡改防重放(timestamp+nonce+sign四步演进)、API Key(sa-token-apikey)部分授权与Scope控制(可吊销/可限权)、临时Token(SaTempUtil内嵌核心包)短效链接邀请。
-  API签名支持多应用(多secret-key)模式和多种摘要算法(md5/sha256/sha512)。API Key支持多账号体系、数据库持久化模式。临时Token支持前缀裁剪、反向查询、JWT集成。
-  基础登录认证请先使用 sa-token 技能。
+description: Sa-Token API 安全防御技能。覆盖 API 参数签名(sa-token-sign)防篡改防重放(timestamp+nonce+sign四步演进)、API Key(sa-token-apikey)部分授权与Scope控制(可吊销/可限权)、临时Token(SaTempUtil内嵌核心包)短效链接邀请。 API签名支持多应用(多secret-key)模式和多种摘要算法(md5/sha256/sha512)。API Key支持多账号体系、数据库持久化模式。临时Token支持前缀裁剪、反向查询、JWT集成。 基础登录认证请先使用 sa-token 技能。
 license: Apache-2.0
 ---
 

@@ -1,8 +1,6 @@
 ---
 name: guava-patterns
-description: |
-  Google Guava 最佳实践模式。从官方 wiki 提炼，覆盖 Immutable集合的 of/copyOf/builder 三模式与防御性拷贝规则、Cache 选择决策(LoadingCache vs Cache vs Caffeine)、Joiner/Splitter 不可变流水线、CharMatcher 替代正则、Preconditions 格式化消息校验、CaseFormat 命名互转。
-  纠正 LLM 误用：手写不可变集合、ConcurrentHashMap 替代 Cache、不知 CharMatcher。
+description: Google Guava 最佳实践模式。从官方 wiki 提炼，覆盖 Immutable集合的 of/copyOf/builder 三模式与防御性拷贝规则、Cache 选择决策(LoadingCache vs Cache vs Caffeine)、Joiner/Splitter 不可变流水线、CharMatcher 替代正则、Preconditions 格式化消息校验、CaseFormat 命名互转。 纠正 LLM 误用：手写不可变集合、ConcurrentHashMap 替代 Cache、不知 CharMatcher。
 license: Apache-2.0
 ---
 

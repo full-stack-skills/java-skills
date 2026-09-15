@@ -1,9 +1,6 @@
 ---
 name: java-component-patterns
-description: |
-  Java 组件（SDK/工具库，非 Spring Boot starter）封装规范。无 parent 独立 POM 结构、licenses/scm/developers 元数据三段、三段式 properties（基础/Dependency versions/Plugin versions 自然排序）、Jackson BOM 统一版本管理、maven.compiler.release 的 API 安全用法、多 JDK 分支模型（feature/{line} → JDK 8/17/21）、组件间同线依赖、tag 发布与 SNAPSHOT 滚动、JaCoCo 90% 门禁、pom.xml 4 空格缩进格式化。
-  纠正 LLM：给独立组件加 spring-boot-starter-parent、java.version 写 8（应写 1.8）、properties 不分类不排序、漏 licenses/scm/developers 导致 Central 被拒、跨线依赖内部组件（1.0.x 依赖 2.0.x）、忘记无 parent 需自管全部插件版本、Jackson 依赖在 dm 中放无 version 条目遮蔽 BOM、License URL 用 http（应用 https）。
-  触发词：组件封装、SDK 开发、无 parent pom、独立库、java component、多 JDK 分支、xxx-java-sdk 模板、jackson-bom、Jackson 版本管理。
+description: Java 组件（SDK/工具库，非 Spring Boot starter）封装规范。无 parent 独立 POM 结构、licenses/scm/developers 元数据三段、三段式 properties（基础/Dependency versions/Plugin versions 自然排序）、Jackson BOM 统一版本管理、maven.compiler.release 的 API 安全用法、多 JDK 分支模型（feature/{line} → JDK 8/17/21）、组件间同线依赖、tag 发布与 SNAPSHOT 滚动、JaCoCo 90% 门禁、pom.xml 4 空格缩进格式化。 纠正 LLM：给独立组件加 spring-boot-starter-parent、java.version 写 8（应写 1.8）、properties 不分类不排序、漏 licenses/scm/developers 导致 Central 被拒、跨线依赖内部组件（1.0.x 依赖 2.0.x）、忘记无 parent 需自管全部插件版本、Jackson 依赖在 dm 中放无 version 条目遮蔽 BOM、License URL 用 http（应用 https）。 触发词：组件封装、SDK 开发、无 parent pom、独立库、java component、多 JDK 分支、xxx-java-sdk 模板、jackson-bom、Jackson 版本管理。
 license: Apache-2.0
 ---
 

@@ -1,10 +1,6 @@
 ---
 name: sa-token-sso
-description: |
-  Sa-Token SSO 单点登录专项技能。覆盖三种SSO模式完整方案：模式一(同域+同Redis/Cookie共享)、模式二(跨域+同Redis/URL重定向)、模式三(跨域+跨Redis/Http ticket)。
-  SSO-Server认证中心搭建、SSO-Client接入、单点注销、自定义登录页面、前后端分离SSO(H5方案)、消息推送、匿名Client、域名校验、NoSdk非Java接入、自定义API路由、平台中心跳转。
-  当用户需要多系统统一登录/注销、搭建单点登录认证中心、跨域SSO集成时使用。
-  基础登录认证请先使用 sa-token 技能。
+description: Sa-Token SSO 单点登录专项技能。覆盖三种SSO模式完整方案：模式一(同域+同Redis/Cookie共享)、模式二(跨域+同Redis/URL重定向)、模式三(跨域+跨Redis/Http ticket)。 SSO-Server认证中心搭建、SSO-Client接入、单点注销、自定义登录页面、前后端分离SSO(H5方案)、消息推送、匿名Client、域名校验、NoSdk非Java接入、自定义API路由、平台中心跳转。 当用户需要多系统统一登录/注销、搭建单点登录认证中心、跨域SSO集成时使用。 基础登录认证请先使用 sa-token 技能。
 license: Apache-2.0
 ---
 
