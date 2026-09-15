@@ -3,7 +3,6 @@ name: maven-search
 description: Provides comprehensive guidance for searching and retrieving Maven components from Maven Central Repository (https://repo1.maven.org/maven2/). This skill enables searching by groupId, artifactId, version, and other coordinates, retrieving component metadata (POM files, JARs, sources, Javadoc), querying version history, and analyzing dependencies. Use when the user needs to find, verify, or retrieve Maven dependencies, check component versions, analyze dependency trees, or work with Maven coordinates.
 license: Apache-2.0
 ---
-
 ## When to use this skill
 
 **ALWAYS use this skill when the user mentions:**
@@ -56,13 +55,13 @@ To search for Maven components:
 3. **Follow the specific instructions** in that example file for API endpoints, parameters, and best practices
 
 4. **Use Maven Central Repository API**:
-   
+
    **Search API** (https://search.maven.org/solrsearch/select):
    - Query parameter: `q` - Search query (e.g., `g:com.google.guava AND a:guava`)
    - Rows parameter: `rows` - Number of results (default: 20, max: 200)
    - Start parameter: `start` - Pagination offset
    - Core parameter: `core` - Search core (default: `gav`)
-   
+
    **Direct Repository Access** (https://repo1.maven.org/maven2/):
    - Path format: `{groupId}/{artifactId}/{version}/{artifactId}-{version}.{extension}`
    - GroupId path: Replace dots with slashes (e.g., `com.google.guava` → `com/google/guava`)
@@ -73,12 +72,12 @@ To search for Maven components:
    - Javadoc: `{artifactId}-{version}-javadoc.jar`
 
 5. **Construct the appropriate URL**:
-   
+
    **Search Example**:
    ```
    https://search.maven.org/solrsearch/select?q=g:com.google.guava+AND+a:guava&rows=20&wt=json
    ```
-   
+
    **Direct Access Example**:
    ```
    https://repo1.maven.org/maven2/com/google/guava/guava/maven-metadata.xml
@@ -214,42 +213,3 @@ Maven, Maven 中央仓库, Maven 仓库, Maven 依赖, Maven 组件, Maven 坐�
 - **Maven Central Search API Documentation**: https://central.sonatype.com/search-api/
 - **Maven Coordinates Guide**: https://maven.apache.org/guides/mini/guide-naming-conventions.html
 
-## 能力边界
-
-### ✅ 适用场景
-- 当你需要使用此技能对应的技术栈时
-- 当项目需要遵循最佳实践时
-- 当需要快速上手或深入理解核心概念时
-
-### ⚠️ 需要注意
-- 复杂业务逻辑需要结合具体场景调整
-- 性能优化需要根据实际数据量评估
-
-### ❌ 不适用场景
-- 不相关的技术栈或框架
-- 需要完全自定义的特殊场景
-
-## 常见陷阱 (Gotchas)
-
-1. **版本兼容性**：注意框架版本与依赖库的兼容性，不同版本 API 可能有差异
-2. **配置文件格式**：配置文件格式错误是最常见的问题，建议使用编辑器的语法检查
-3. **环境变量**：确保所有必要的环境变量已正确设置，敏感信息不要硬编码
-4. **依赖冲突**：多版本共存时注意依赖冲突，使用 lock 文件锁定版本
-5. **性能陷阱**：大数据量场景下注意性能优化，避免 N+1 查询等常见问题
-
-## 使用流程
-
-### Step 1: 环境准备
-确保开发环境已安装必要的依赖和工具。
-
-### Step 2: 配置初始化
-根据项目需求进行基础配置。
-
-### Step 3: 核心功能使用
-按照示例代码实现核心功能。
-
-### Step 4: 测试验证
-运行测试确保功能正常。
-
-### Step 5: 部署上线
-完成开发后进行部署和监控。
