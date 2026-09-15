@@ -1,8 +1,6 @@
 ---
 name: seata-patterns
-description: |
-  Seata 分布式事务技能。覆盖 AT/TCC/SAGA/XA 四模式选择决策树、AT模式 undo_log 表必备、TCC 模式 useTCCFence 解决幂等/悬挂/空回滚、SAGA 状态机长流程、全局事务超时配置(@GlobalTransactional timeoutMills)、读隔离增强(@GlobalLock + FOR UPDATE)。
-  纠正 LLM：不知道 AT/TCC/SAGA选哪个、不建 undo_log 表、TCC Confirm非幂等、不看门狗处理。
+description: Seata 分布式事务技能。覆盖 AT/TCC/SAGA/XA 四模式选择决策树、AT模式 undo_log 表必备、TCC 模式 useTCCFence 解决幂等/悬挂/空回滚、SAGA 状态机长流程、全局事务超时配置(@GlobalTransactional timeoutMills)、读隔离增强(@GlobalLock + FOR UPDATE)。 纠正 LLM：不知道 AT/TCC/SAGA选哪个、不建 undo_log 表、TCC Confirm非幂等、不看门狗处理。
 license: Apache-2.0
 ---
 

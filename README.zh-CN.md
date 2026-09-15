@@ -51,7 +51,7 @@ npx skills add full-stack-skills/java-skills --skill <skill-name>
 | `license-compliance-triage` | 基于证据的依赖许可证分诊，压降扫描误报、解析多许可证表达式、将结论绑定精确版本，并区分附带义务与真实阻断 |
 | `unirest-java-3` | Unirest 3.x HTTP 客户端，基于 Apache HttpClient，支持 Java 8+，内置 GSON，支持每请求代理、Mock 测试、缓存和连接池调优 |
 | `unirest-java-4` | Unirest 4.x HTTP 客户端，基于 java.net.http，支持 Java 11+，SSE、WebSocket、HTTP/2、ProxySelector、Mock 测试、缓存和模块化 JSON 支持 |
-| `okhttp3-5.x` | OkHttp 5.x HTTP 客户端，支持 Java/JVM 8+ 和 Android 5+，HTTP/2、透明 GZIP、Fast Fallback、MockWebServer、GraalVM Native Image 支持 |
+| `okhttp5` | OkHttp 5.x HTTP 客户端，支持 Java/JVM 8+ 和 Android 5+，HTTP/2、透明 GZIP、Fast Fallback、MockWebServer、GraalVM Native Image 支持 |
 | `sa-token` | Sa-Token 核心权限认证框架 — 登录认证、权限/角色认证、注解鉴权、路由拦截鉴权、Session 会话管理、框架配置、前后端分离 |
 | `sa-token-advanced` | Sa-Token 高级安全特性 — 二级认证、账号封禁(全/分类/阶梯)、身份切换、多账号体系(StpUserUtil/StpKit)、全局侦听器与过滤器、密码加密、Http Basic/Digest |
 | `sa-token-sso` | Sa-Token SSO 单点登录 — 三种模式(同域Cookie/跨域重定向/跨域Http ticket)、Server 搭建、Client 接入、单点注销、前后端分离 H5 方案 |

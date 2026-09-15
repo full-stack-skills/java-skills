@@ -1,8 +1,6 @@
 ---
 name: mapstruct-patterns
-description: |
-  MapStruct 最佳实践模式。从官方 Reference Guide 提炼，覆盖 Mapper 三种定义方式(接口/抽象类/default方法)、Spring 注入策略(CONSTRUCTOR推荐/SETTER解决循环依赖)、嵌套映射模式(显式子方法 > dot notation 一次性配置)、@Qualifier > @Named 的安全选择、Lombok 集成规则、@MappingComposition 谨慎使用。
-  纠正 LLM 最常见的错误：用反射 BeanUtils 而非编译期 MapStruct、嵌套映射全写在一个方法、不知 SETTER 解决循环依赖。
+description: MapStruct 最佳实践模式。从官方 Reference Guide 提炼，覆盖 Mapper 三种定义方式(接口/抽象类/default方法)、Spring 注入策略(CONSTRUCTOR推荐/SETTER解决循环依赖)、嵌套映射模式(显式子方法 > dot notation 一次性配置)、@Qualifier > @Named 的安全选择、Lombok 集成规则、@MappingComposition 谨慎使用。 纠正 LLM 最常见的错误：用反射 BeanUtils 而非编译期 MapStruct、嵌套映射全写在一个方法、不知 SETTER 解决循环依赖。
 license: Apache-2.0
 ---
 

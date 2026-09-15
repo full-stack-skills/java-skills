@@ -1,10 +1,6 @@
 ---
 name: sa-token-oauth2
-description: |
-  Sa-Token OAuth2.0 服务端技能。覆盖四种授权模式：授权码模式(Authorization Code)、隐式模式(Implicit)、密码模式(Password)、客户端凭证模式(Client Credentials)。
-  完整 OAuth2-Server 搭建、SaOAuth2DataLoader 数据加载器、Scope 权限自定义与分级、OIDC 协议、OpenId/UnionId、自定义 grant_type、自定义登录授权页、注解校验 Access-Token、与登录会话互通、Scope level 等级控制、自定义API路由。
-  当用户需要搭建OAuth2.0认证服务器、开发开放平台、实现第三方应用授权时使用。
-  基础登录认证请先使用 sa-token 技能。
+description: Sa-Token OAuth2.0 服务端技能。覆盖四种授权模式：授权码模式(Authorization Code)、隐式模式(Implicit)、密码模式(Password)、客户端凭证模式(Client Credentials)。 完整 OAuth2-Server 搭建、SaOAuth2DataLoader 数据加载器、Scope 权限自定义与分级、OIDC 协议、OpenId/UnionId、自定义 grant_type、自定义登录授权页、注解校验 Access-Token、与登录会话互通、Scope level 等级控制、自定义API路由。 当用户需要搭建OAuth2.0认证服务器、开发开放平台、实现第三方应用授权时使用。 基础登录认证请先使用 sa-token 技能。
 license: Apache-2.0
 ---
 

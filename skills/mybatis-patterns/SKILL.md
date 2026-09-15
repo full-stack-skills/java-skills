@@ -1,8 +1,6 @@
 ---
 name: mybatis-patterns
-description: |
-  MyBatis 核心 ORM 技能。覆盖 XML vs 注解 SQL选择、ResultMap复用(extends)、关联查询(association/collection join vs 嵌套select/N+1决策)、分页插件配置、#和$的SQL注入防护、动态SQL(if/where/set/foreach/choose)最佳实践、columnPrefix解决同表多次JOIN。
-  当用户编写 MyBatis Mapper XML、处理关联查询、配置分页、防范SQL注入时使用。
+description: MyBatis 核心 ORM 技能。覆盖 XML vs 注解 SQL选择、ResultMap复用(extends)、关联查询(association/collection join vs 嵌套select/N+1决策)、分页插件配置、#和$的SQL注入防护、动态SQL(if/where/set/foreach/choose)最佳实践、columnPrefix解决同表多次JOIN。 当用户编写 MyBatis Mapper XML、处理关联查询、配置分页、防范SQL注入时使用。
 license: Apache-2.0
 ---
 

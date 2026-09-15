@@ -1,12 +1,7 @@
 ---
 name: unirest-java-3
 license: Apache-2.0
-description: >
-  Unirest-Java 3.x HTTP client library for Java 8+. Use when making HTTP requests (GET/POST/PUT/DELETE),
-  building REST API clients, handling JSON responses, file uploads/downloads, async requests,
-  mocking HTTP calls for testing, configuring proxies, or caching responses.
-  Covers Unirest 3.x (Apache HttpClient based, default GSON included, kong.unirest package) with
-  object mapping, request/response interceptors, and migration guidance.
+description: Unirest-Java 3.x HTTP client library for Java 8+. Use when making HTTP requests (GET/POST/PUT/DELETE), building REST API clients, handling JSON responses, file uploads/downloads, async requests, mocking HTTP calls for testing, configuring proxies, or caching responses. Covers Unirest 3.x (Apache HttpClient based, default GSON included, kong.unirest package) with object mapping, request/response interceptors, and migration guidance.
 ---
 
 # Unirest-Java 3.x Reference (v3.14.5)

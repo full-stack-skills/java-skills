@@ -1,8 +1,6 @@
 ---
 name: redis-redisson-patterns
-description: |
-  Redis + Redisson 缓存与分布式锁技能。覆盖缓存Key命名规范、过期时间设置原则、RedisTemplate序列化选择(JSON vs JDK vs String)、Redisson分布式锁三大模式(watchDog/tryLock 有leaseTime/无leaseTime 决策)、缓存穿透(布隆/空值缓存)/击穿(互斥锁)/雪崩(随机TTL)防护、Caffeine vs Redis选择决策。
-  纠正 LLM：不设过期时间、StringRedisTemplate和RedisTemplate混用、Redisson锁不 try-finally unlock、看门狗在指定 leaseTime 时不生效。
+description: Redis + Redisson 缓存与分布式锁技能。覆盖缓存Key命名规范、过期时间设置原则、RedisTemplate序列化选择(JSON vs JDK vs String)、Redisson分布式锁三大模式(watchDog/tryLock 有leaseTime/无leaseTime 决策)、缓存穿透(布隆/空值缓存)/击穿(互斥锁)/雪崩(随机TTL)防护、Caffeine vs Redis选择决策。 纠正 LLM：不设过期时间、StringRedisTemplate和RedisTemplate混用、Redisson锁不 try-finally unlock、看门狗在指定 leaseTime 时不生效。
 license: Apache-2.0
 ---
 

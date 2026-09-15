@@ -1,9 +1,6 @@
 ---
 name: sa-token-integration
-description: |
-  Sa-Token 集成扩展技能。覆盖 JWT 集成(Simple/Mixin/Stateless三种模式对比表)、Redis持久化(JDK序列化/JSON序列化)、Alone-Redis独立Redis(鉴权缓存与业务缓存隔离)、AOP注解鉴权(Service层使用注解)、SpEL表达式注解(@SaCheckEL)、Quick-Login快速登录(零代码登录页)、JSON序列化扩展(Jackson/Fastjson/Fastjson2/Snack3)、模板引擎集成(Thymeleaf/Freemarker标签方言)、RPC集成(Dubbo/Dubbo3/gRPC上下文传播)。
-  当用户需要集成JWT实现无状态认证、配置Redis分布式会话、缓存隔离、Service层注解鉴权、快速搭建登录页面时使用。
-  基础登录认证请先使用 sa-token 技能。
+description: Sa-Token 集成扩展技能。覆盖 JWT 集成(Simple/Mixin/Stateless三种模式对比表)、Redis持久化(JDK序列化/JSON序列化)、Alone-Redis独立Redis(鉴权缓存与业务缓存隔离)、AOP注解鉴权(Service层使用注解)、SpEL表达式注解(@SaCheckEL)、Quick-Login快速登录(零代码登录页)、JSON序列化扩展(Jackson/Fastjson/Fastjson2/Snack3)、模板引擎集成(Thymeleaf/Freemarker标签方言)、RPC集成(Dubbo/Dubbo3/gRPC上下文传播)。 当用户需要集成JWT实现无状态认证、配置Redis分布式会话、缓存隔离、Service层注解鉴权、快速搭建登录页面时使用。 基础登录认证请先使用 sa-token 技能。
 license: Apache-2.0
 ---
 

@@ -1,9 +1,6 @@
 ---
 name: spring-boot-starter-patterns
-description: |
-  Spring Boot Starter 开发规范（组织无关）。标准 POM 结构（元素顺序铁律、properties 三段式分类+自然排序、licenses/scm/developers 元数据三段、完整 build/profiles）、十分支版本矩阵（2.3.x~4.1.x ↔ Spring Boot 2.3.12~4.1.0 ↔ JDK 8/17/21）、十 tag 发布工作流（tag → Maven Central → SNAPSHOT 月度滚动）、JDK 兼容规则、JaCoCo 90% 覆盖率门禁。
-  纠正 LLM：properties 不分类不排序、漏 licenses/scm/developers 导致 Central 发布被拒、java.version 写 1.8 触发编译失败、surefire argLine 丢 ${argLine} 导致 JaCoCo 失效、把 okhttp 等通用库当默认依赖复制。
-  触发词：starter 开发、pom 标准化、分支版本矩阵、tag 发布、版本滚动、多 Spring Boot 版本适配、新建 xxx-spring-boot-starter。
+description: Spring Boot Starter 开发规范（组织无关）。标准 POM 结构（元素顺序铁律、properties 三段式分类+自然排序、licenses/scm/developers 元数据三段、完整 build/profiles）、十分支版本矩阵（2.3.x~4.1.x ↔ Spring Boot 2.3.12~4.1.0 ↔ JDK 8/17/21）、十 tag 发布工作流（tag → Maven Central → SNAPSHOT 月度滚动）、JDK 兼容规则、JaCoCo 90% 覆盖率门禁。 纠正 LLM：properties 不分类不排序、漏 licenses/scm/developers 导致 Central 发布被拒、java.version 写 1.8 触发编译失败、surefire argLine 丢 ${argLine} 导致 JaCoCo 失效、把 okhttp 等通用库当默认依赖复制。 触发词：starter 开发、pom 标准化、分支版本矩阵、tag 发布、版本滚动、多 Spring Boot 版本适配、新建 xxx-spring-boot-starter。
 license: Apache-2.0
 ---
 

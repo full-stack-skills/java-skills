@@ -1,9 +1,6 @@
 ---
 name: sa-token-micro
-description: |
-  Sa-Token 微服务鉴权技能。覆盖 Same-Token 内部服务外网隔离机制、SpringCloud Gateway 网关统一鉴权(Reactor响应式)、Feign/Dubbo/gRPC 内部RPC调用鉴权、分布式Session会话方案(Redis Session中心/JWT无状态)、Reactor/WebFlux框架集成、SpringBoot3/4依赖适配。
-  当用户需要微服务架构下的服务间认证、网关Token转发与校验、内部服务外网隔离、分布式会话共享时使用。
-  基础登录认证请先使用 sa-token 技能。
+description: Sa-Token 微服务鉴权技能。覆盖 Same-Token 内部服务外网隔离机制、SpringCloud Gateway 网关统一鉴权(Reactor响应式)、Feign/Dubbo/gRPC 内部RPC调用鉴权、分布式Session会话方案(Redis Session中心/JWT无状态)、Reactor/WebFlux框架集成、SpringBoot3/4依赖适配。 当用户需要微服务架构下的服务间认证、网关Token转发与校验、内部服务外网隔离、分布式会话共享时使用。 基础登录认证请先使用 sa-token 技能。
 license: Apache-2.0
 ---
 

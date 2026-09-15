@@ -51,7 +51,7 @@ npx skills add full-stack-skills/java-skills --skill <skill-name>
 | `license-compliance-triage` | Evidence-backed dependency-license review that reduces scanner false positives, resolves multi-license expressions, binds decisions to exact versions, and separates conditional obligations from real blockers |
 | `unirest-java-3` | Unirest 3.x HTTP client for Java 8+ with Apache HttpClient, built-in GSON, per-request proxy, mocking, caching, and connection pool tuning |
 | `unirest-java-4` | Unirest 4.x HTTP client for Java 11+ with java.net.http, SSE, WebSocket, HTTP/2, ProxySelector, mocking, caching, and modular JSON support |
-| `okhttp3-5.x` | OkHttp 5.x HTTP client for Java/JVM 8+ and Android 5+ with HTTP/2, transparent GZIP, Fast Fallback, MockWebServer, and GraalVM Native Image support |
+| `okhttp5` | OkHttp 5.x HTTP client for Java/JVM 8+ and Android 5+ with HTTP/2, transparent GZIP, Fast Fallback, MockWebServer, and GraalVM Native Image support |
 | `sa-token` | Sa-Token core authentication framework — login, permission/role auth, annotation auth, route interceptor, session management, token configuration, front-back separation |
 | `sa-token-advanced` | Sa-Token advanced security — secondary auth (2FA), account banning (full/category/tiered), identity switching, multi-account systems, global listener & filter, password encryption, HTTP Basic/Digest |
 | `sa-token-sso` | Sa-Token SSO single sign-on — 3 modes (same-domain cookie, cross-domain redirect, cross-domain HTTP ticket), SSO-Server setup, SSO-Client integration, single logout |

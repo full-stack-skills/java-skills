@@ -1,12 +1,7 @@
 ---
 name: unirest-java-4
 license: Apache-2.0
-description: >
-  Unirest-Java 4.x HTTP client library for Java 11+. Use when making HTTP requests (GET/POST/PUT/DELETE),
-  building REST API clients, handling JSON responses, file uploads/downloads, async requests,
-  Server-Sent Events (SSE), mocking HTTP calls for testing, configuring proxies, or caching responses.
-  Covers Unirest 4.x (requires Java 11+, modular dependencies, kong.unirest.core package) with
-  GSON/Jackson object mapping, request/response interceptors, and migration from Unirest 3.x.
+description: Unirest-Java 4.x HTTP client library for Java 11+. Use when making HTTP requests (GET/POST/PUT/DELETE), building REST API clients, handling JSON responses, file uploads/downloads, async requests, Server-Sent Events (SSE), mocking HTTP calls for testing, configuring proxies, or caching responses. Covers Unirest 4.x (requires Java 11+, modular dependencies, kong.unirest.core package) with GSON/Jackson object mapping, request/response interceptors, and migration from Unirest 3.x.
 ---
 
 # Unirest-Java 4.x Reference (v4.10.0)

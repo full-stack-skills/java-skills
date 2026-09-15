@@ -1,10 +1,6 @@
 ---
 name: sa-token
-description: |
-  Sa-Token 轻量级 Java 权限认证框架核心技能。覆盖登录认证、权限/角色认证、注解鉴权、路由拦截鉴权、Session 会话、踢人下线、Token 有效期策略、框架配置、Token 风格与提交前缀、前后端分离、记住我模式、同端互斥登录、NotLoginException 场景值处理。
-  StpUtil 是核心门面工具类，提供 login/checkLogin/logout/isLogin/getLoginId/getTokenValue 等全套鉴权 API。
-  当用户需要 Java Web 项目集成权限认证、使用 StpUtil 进行登录/权限校验、配置路由拦截器或注解鉴权时使用。
-  不涉及二级认证/封禁/多账号/SSO/OAuth2/微服务/API安全/JWT/Redis 等高级功能，请使用对应专项技能。
+description: Sa-Token 轻量级 Java 权限认证框架核心技能。覆盖登录认证、权限/角色认证、注解鉴权、路由拦截鉴权、Session 会话、踢人下线、Token 有效期策略、框架配置、Token 风格与提交前缀、前后端分离、记住我模式、同端互斥登录、NotLoginException 场景值处理。 StpUtil 是核心门面工具类，提供 login/checkLogin/logout/isLogin/getLoginId/getTokenValue 等全套鉴权 API。 当用户需要 Java Web 项目集成权限认证、使用 StpUtil 进行登录/权限校验、配置路由拦截器或注解鉴权时使用。 不涉及二级认证/封禁/多账号/SSO/OAuth2/微服务/API安全/JWT/Redis 等高级功能，请使用对应专项技能。
 license: Apache-2.0
 ---
 

@@ -1,8 +1,6 @@
 ---
 name: kafka-patterns
-description: |
-  Apache Kafka 消息队列技能。覆盖生产者 acks=all/1/0 选择决策、幂等性(enable.idempotence + acks=all)配置、消费者手动提交 offset(enable.auto.commit=false)、DLT死信处理(@RetryableTopic/@DltHandler)、@KafkaListener + 异常处理器(DefaultErrorHandler)、顺序消息(同一Key发同一分区)、事务消息。
-  纠正 LLM：acks=0 丢消息、auto.commit 漏消息、不处理重复消费、不配置 DLT。
+description: Apache Kafka 消息队列技能。覆盖生产者 acks=all/1/0 选择决策、幂等性(enable.idempotence + acks=all)配置、消费者手动提交 offset(enable.auto.commit=false)、DLT死信处理(@RetryableTopic/@DltHandler)、@KafkaListener + 异常处理器(DefaultErrorHandler)、顺序消息(同一Key发同一分区)、事务消息。 纠正 LLM：acks=0 丢消息、auto.commit 漏消息、不处理重复消费、不配置 DLT。
 license: Apache-2.0
 ---
 
