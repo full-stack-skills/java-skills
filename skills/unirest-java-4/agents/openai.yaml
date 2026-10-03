@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unirest Java 4"
+  short_description: "Unirest-Java 4.x HTTP client library for Java 11+"
+  default_prompt: "Use $unirest-java-4 to help with my current task: Unirest-Java 4.x HTTP client library for Java 11+."

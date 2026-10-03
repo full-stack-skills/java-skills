@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guava Patterns"
+  short_description: "Google Guava 最佳实践模式。从官方 wiki 提炼，覆盖 Immutable集合的…"
+  default_prompt: "使用 $guava-patterns，围绕“Google Guava 最佳实践模式。从官方 wiki 提炼，覆盖 Immutable集合的”处理我的当前需求。"

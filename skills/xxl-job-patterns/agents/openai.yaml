@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xxl Job Patterns"
+  short_description: "XXL-JOB 最佳实践模式。基于 hiwepy/xxljob-spring-boot-starter 定制封装，覆盖 @…"
+  default_prompt: "使用 $xxl-job-patterns，围绕“XXL-JOB 最佳实践模式。基于 hiwepy/xxljob-spring-boot-starter 定制封装，覆盖 @”处理我的当前需求。"

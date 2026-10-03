@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seata Patterns"
+  short_description: "Seata 分布式事务技能。覆盖 AT/TCC/SAGA/XA 四模式选择决策树、AT模式 undo_log 表必备、TCC…"
+  default_prompt: "使用 $seata-patterns，围绕“Seata 分布式事务技能。覆盖 AT/TCC/SAGA/XA 四模式选择决策树、AT模式 undo_log 表必备、TCC”处理我的当前需求。"

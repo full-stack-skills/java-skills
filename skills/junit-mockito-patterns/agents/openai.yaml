@@ -1,0 +1,4 @@
+interface:
+  display_name: "Junit Mockito Patterns"
+  short_description: "JUnit5 + Mockito 测试框架技能。覆盖 JUnit5 @ExtendWith替代@RunWith、Mockito…"
+  default_prompt: "使用 $junit-mockito-patterns，围绕“JUnit5 + Mockito 测试框架技能。覆盖 JUnit5 @ExtendWith替代@RunWith、Mockito”处理我的当前需求。"

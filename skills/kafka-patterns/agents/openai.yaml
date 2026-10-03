@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kafka Patterns"
+  short_description: "Apache Kafka 消息队列技能。覆盖生产者 acks=all/1/0 选择决策、幂等性(enable.…"
+  default_prompt: "使用 $kafka-patterns，围绕“Apache Kafka 消息队列技能。覆盖生产者 acks=all/1/0 选择决策、幂等性(enable.”处理我的当前需求。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commons Patterns"
+  short_description: "Apache Commons 最佳实践模式。从官方文档提炼，覆盖 Commons Lang3(StringUtils千面判空/…"
+  default_prompt: "使用 $commons-patterns，围绕“Apache Commons 最佳实践模式。从官方文档提炼，覆盖 Commons Lang3(StringUtils千面判空/”处理我的当前需求。"

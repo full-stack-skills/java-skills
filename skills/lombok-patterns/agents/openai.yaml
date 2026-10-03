@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lombok Patterns"
+  short_description: "Lombok 注解使用规则技能。覆盖 @Data/@Builder/@Slf4j 组合规则、@…"
+  default_prompt: "使用 $lombok-patterns，围绕“Lombok 注解使用规则技能。覆盖 @Data/@Builder/@Slf4j 组合规则、@”处理我的当前需求。"

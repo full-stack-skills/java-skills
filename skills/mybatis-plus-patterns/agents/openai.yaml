@@ -1,0 +1,4 @@
+interface:
+  display_name: "MyBatis Plus Patterns"
+  short_description: "MyBatis-Plus 增强 ORM 技能。覆盖 LambdaQueryWrapper vs QueryWrapper选择(…"
+  default_prompt: "使用 $mybatis-plus-patterns，围绕“MyBatis-Plus 增强 ORM 技能。覆盖 LambdaQueryWrapper vs QueryWrapper选择(”处理我的当前需求。"

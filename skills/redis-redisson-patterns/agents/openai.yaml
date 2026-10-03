@@ -1,0 +1,4 @@
+interface:
+  display_name: "Redis Redisson Patterns"
+  short_description: "Redis + Redisson 缓存与分布式锁技能"
+  default_prompt: "使用 $redis-redisson-patterns，围绕“Redis + Redisson 缓存与分布式锁技能”处理我的当前需求。"

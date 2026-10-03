@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spring Boot Starter Patterns"
+  short_description: "Spring Boot Starter 开发规范（组织无关）"
+  default_prompt: "使用 $spring-boot-starter-patterns，围绕“Spring Boot Starter 开发规范（组织无关）”处理我的当前需求。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java Component Patterns"
+  short_description: "Java 组件（SDK/工具库，非 Spring Boot starter）封装规范"
+  default_prompt: "使用 $java-component-patterns，围绕“Java 组件（SDK/工具库，非 Spring Boot starter）封装规范”处理我的当前需求。"

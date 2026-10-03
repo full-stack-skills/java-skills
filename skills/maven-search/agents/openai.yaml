@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maven Search"
+  short_description: "searching and retrieving Maven components from Maven Central…"
+  default_prompt: "Use $maven-search to help with my current task: Provides comprehensive guidance for searching and retrieving Maven components from Maven Central Repository (https://repo1.maven.org/maven2/)."

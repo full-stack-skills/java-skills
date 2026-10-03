@@ -1,0 +1,4 @@
+interface:
+  display_name: "MyBatis Patterns"
+  short_description: "MyBatis 核心 ORM 技能。覆盖 XML vs 注解 SQL选择、ResultMap复用(extends)、关联查询(…"
+  default_prompt: "使用 $mybatis-patterns，围绕“MyBatis 核心 ORM 技能。覆盖 XML vs 注解 SQL选择、ResultMap复用(extends)、关联查询(”处理我的当前需求。"

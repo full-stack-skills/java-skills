@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hutool Patterns"
+  short_description: "Hutool 中文 Java 工具库技能。覆盖与 Guava/Apache Commons 的功能选择矩阵、字符串/集合/日期…"
+  default_prompt: "使用 $hutool-patterns，围绕“Hutool 中文 Java 工具库技能。覆盖与 Guava/Apache Commons 的功能选择矩阵、字符串/集合/日期”处理我的当前需求。"

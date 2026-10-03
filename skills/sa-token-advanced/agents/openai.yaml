@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sa Token Advanced"
+  short_description: "Sa-Token 高级安全特性技能。覆盖二级认证(safe-auth二次验证)、账号封禁(全封禁/分类封禁/阶梯封禁)、模拟他…"
+  default_prompt: "使用 $sa-token-advanced，围绕“Sa-Token 高级安全特性技能。覆盖二级认证(safe-auth二次验证)、账号封禁(全封禁/分类封禁/阶梯封禁)、模拟他”处理我的当前需求。"

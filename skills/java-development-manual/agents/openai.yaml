@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java Development Manual"
+  short_description: "Java开发手册规约集合，基于阿里巴巴Java开发手册（嵩山版）"
+  default_prompt: "使用 $java-development-manual，围绕“Java开发手册规约集合，基于阿里巴巴Java开发手册（嵩山版）”处理我的当前需求。"

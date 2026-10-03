@@ -1,0 +1,4 @@
+interface:
+  display_name: "MyBatis Plus Generator"
+  short_description: "generating MyBatis-Plus code including Entity, Mapper…"
+  default_prompt: "Use $mybatis-plus-generator to help with my current task: Provides comprehensive guidance for generating MyBatis-Plus code including Entity, Mapper, Service, ServiceImpl, Controller, DTO, VO, BO and other related objects from database…"

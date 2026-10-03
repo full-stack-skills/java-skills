@@ -1,0 +1,4 @@
+interface:
+  display_name: "Easyexcel Fill"
+  short_description: "基于 Alibaba EasyExcel（com.alibaba:easyexcel:4.0.3）的 Excel 模板填充技能"
+  default_prompt: "使用 $easyexcel-fill，围绕“基于 Alibaba EasyExcel（com.alibaba:easyexcel:4.0.3）的 Excel 模板填充技能”处理我的当前需求。"

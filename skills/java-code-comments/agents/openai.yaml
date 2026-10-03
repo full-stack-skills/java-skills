@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java Code Comments"
+  short_description: "adding Java code comments following industry standards and…"
+  default_prompt: "Use $java-code-comments to help with my current task: Provides comprehensive guidance for adding Java code comments following industry standards and best practices."

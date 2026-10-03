@@ -1,0 +1,4 @@
+interface:
+  display_name: "Caffeine Patterns"
+  short_description: "Caffeine JVM 本地缓存技能。覆盖本地缓存 vs 远程缓存(Redis)选择决策树、expireAfterWrite…"
+  default_prompt: "使用 $caffeine-patterns，围绕“Caffeine JVM 本地缓存技能。覆盖本地缓存 vs 远程缓存(Redis)选择决策树、expireAfterWrite”处理我的当前需求。"

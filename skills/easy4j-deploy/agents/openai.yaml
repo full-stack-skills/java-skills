@@ -1,0 +1,4 @@
+interface:
+  display_name: "Easy4j Deploy"
+  short_description: "easy4j 组织标准发布流程与多分支 Maven 发布规范"
+  default_prompt: "使用 $easy4j-deploy，围绕“easy4j 组织标准发布流程与多分支 Maven 发布规范”处理我的当前需求。"

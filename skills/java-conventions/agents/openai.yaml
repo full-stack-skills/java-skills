@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java Conventions"
+  short_description: "统一 Java 项目编码规范与注释规范（SLF4J+Lombok 日志、Bean Lombok 注解选择、判空 Objects…"
+  default_prompt: "使用 $java-conventions，围绕“统一 Java 项目编码规范与注释规范（SLF4J+Lombok 日志、Bean Lombok 注解选择、判空 Objects”处理我的当前需求。"

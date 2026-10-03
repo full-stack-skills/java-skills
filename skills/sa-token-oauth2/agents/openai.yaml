@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sa Token Oauth2"
+  short_description: "Sa-Token OAuth2.0 服务端技能。覆盖四种授权模式：授权码模式(Authorization Code)、隐式模式…"
+  default_prompt: "使用 $sa-token-oauth2，围绕“Sa-Token OAuth2.0 服务端技能。覆盖四种授权模式：授权码模式(Authorization Code)、隐式模式”处理我的当前需求。"

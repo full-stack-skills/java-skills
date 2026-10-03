@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jackson Patterns"
+  short_description: "Jackson JSON 序列化技能。覆盖日期格式配置(非ISO-8601)、Null序列化规则(数组→[]/字符串→\"\"/数…"
+  default_prompt: "使用 $jackson-patterns，围绕“Jackson JSON 序列化技能。覆盖日期格式配置(非ISO-8601)、Null序列化规则(数组→[]/字符串→\"\"/数”处理我的当前需求。"

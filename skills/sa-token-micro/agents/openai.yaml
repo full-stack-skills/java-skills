@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sa Token Micro"
+  short_description: "Sa-Token 微服务鉴权技能。覆盖 Same-Token 内部服务外网隔离机制、SpringCloud Gateway 网…"
+  default_prompt: "使用 $sa-token-micro，围绕“Sa-Token 微服务鉴权技能。覆盖 Same-Token 内部服务外网隔离机制、SpringCloud Gateway 网”处理我的当前需求。"

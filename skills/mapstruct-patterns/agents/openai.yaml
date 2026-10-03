@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mapstruct Patterns"
+  short_description: "MapStruct 最佳实践模式。从官方 Reference Guide 提炼，覆盖 Mapper 三种定义方式(接口/抽象类…"
+  default_prompt: "使用 $mapstruct-patterns，围绕“MapStruct 最佳实践模式。从官方 Reference Guide 提炼，覆盖 Mapper 三种定义方式(接口/抽象类”处理我的当前需求。"

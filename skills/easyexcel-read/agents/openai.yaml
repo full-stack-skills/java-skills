@@ -1,0 +1,4 @@
+interface:
+  display_name: "Easyexcel Read"
+  short_description: "基于 Alibaba EasyExcel（com.alibaba:easyexcel:4.0.3）的 Excel 数据读取技能"
+  default_prompt: "使用 $easyexcel-read，围绕“基于 Alibaba EasyExcel（com.alibaba:easyexcel:4.0.3）的 Excel 数据读取技能”处理我的当前需求。"

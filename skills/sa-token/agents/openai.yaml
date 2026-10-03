@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sa Token"
+  short_description: "Sa-Token 轻量级 Java 权限认证框架核心技能"
+  default_prompt: "使用 $sa-token，围绕“Sa-Token 轻量级 Java 权限认证框架核心技能”处理我的当前需求。"

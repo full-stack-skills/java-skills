@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sa Token Sso"
+  short_description: "Sa-Token SSO 单点登录专项技能。覆盖三种SSO模式完整方案：模式一(同域+同Redis/Cookie共享)、模式二…"
+  default_prompt: "使用 $sa-token-sso，围绕“Sa-Token SSO 单点登录专项技能。覆盖三种SSO模式完整方案：模式一(同域+同Redis/Cookie共享)、模式二”处理我的当前需求。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Easyexcel Write"
+  short_description: "基于 Alibaba EasyExcel（com.alibaba:easyexcel:4.0.3）的 Excel 数据写入技能"
+  default_prompt: "使用 $easyexcel-write，围绕“基于 Alibaba EasyExcel（com.alibaba:easyexcel:4.0.3）的 Excel 数据写入技能”处理我的当前需求。"

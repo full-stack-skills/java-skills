@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okhttp5"
+  short_description: "OkHttp 5.x HTTP client for Java/JVM 8+ and Android 5+"
+  default_prompt: "Use $okhttp5 to help with my current task: OkHttp 5.x HTTP client for Java/JVM 8+ and Android 5+."

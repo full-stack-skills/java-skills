@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sa Token API Security"
+  short_description: "Sa-Token API 安全防御技能。覆盖 API 参数签名(sa-token-sign)防篡改防重放(timestamp+…"
+  default_prompt: "使用 $sa-token-api-security，围绕“Sa-Token API 安全防御技能。覆盖 API 参数签名(sa-token-sign)防篡改防重放(timestamp+”处理我的当前需求。"

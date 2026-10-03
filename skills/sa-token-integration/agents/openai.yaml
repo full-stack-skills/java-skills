@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sa Token Integration"
+  short_description: "Sa-Token 集成扩展技能。覆盖 JWT 集成(Simple/Mixin/Stateless三种模式对比表)、Redis持…"
+  default_prompt: "使用 $sa-token-integration，围绕“Sa-Token 集成扩展技能。覆盖 JWT 集成(Simple/Mixin/Stateless三种模式对比表)、Redis持”处理我的当前需求。"
